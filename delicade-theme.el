@@ -30,7 +30,7 @@
   `(font-lock-constant-face ((,class (:foreground ,c5))))
   `(font-lock-function-name-face ((,class (:foreground ,c7))))
   `(font-lock-keyword-face ((,class (:foreground ,c6))))
-  `(font-lock-preprocessor-face ((, class (:foreground ,c8))))
+  `(font-lock-preprocessor-face ((,class (:foreground ,c8))))
   `(font-lock-string-face ((,class (:foreground ,c4))))
   `(font-lock-type-face ((,class (:foreground ,c2))))
   `(font-lock-variable-name-face ((,class (:foreground ,c0))))
