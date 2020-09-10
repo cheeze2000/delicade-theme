@@ -25,10 +25,10 @@
 (custom-theme-set-faces
 'delicade
   `(default ((,class (:background ,b0 :foreground ,w0))))
-  `(font-lock-builtin-face ((,class (:foreground ,c7))))
+  `(font-lock-builtin-face ((,class (:foreground ,c3))))
   `(font-lock-comment-face ((,class (:foreground ,b4))))
   `(font-lock-constant-face ((,class (:foreground ,c5))))
-  `(font-lock-function-name-face ((,class (:foreground ,c3))))
+  `(font-lock-function-name-face ((,class (:foreground ,c7))))
   `(font-lock-keyword-face ((,class (:foreground ,c6))))
   `(font-lock-preprocessor-face ((, class (:foreground ,c8))))
   `(font-lock-string-face ((,class (:foreground ,c4))))
