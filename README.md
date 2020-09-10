@@ -13,7 +13,7 @@ an Emacs theme based on pastel colours
 ![preview](https://cdn.discordapp.com/attachments/437471715975757834/753576525604978718/unknown.png)
 
 ---
-### The config used for the preview above
+### Preview Config
 ```elisp
 (global-display-line-numbers-mode)
 (load-theme 'delicade t)
