@@ -69,6 +69,10 @@
 
   ;; treemacs
   `(treemacs-directory-face ((,class (:foreground ,c0))))
+  `(treemacs-git-added-face ((,class (:foreground ,c3))))
+  `(treemacs-git-modified-face ((,class (:foreground ,c2))))
+  `(treemacs-git-renamed-face ((,class (:foreground ,c2))))
+  `(treemacs-git-untracked-face ((,class (:foreground ,c4))))
   `(treemacs-root-face ((,class (:foreground ,c7))))))
 
 (when load-file-name
