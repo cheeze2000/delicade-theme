@@ -49,6 +49,9 @@
   `(fringe ((,class (:background ,b0))))
   `(cursor ((,class (:background ,w0))))
 
+  ;; ace-window
+  `(aw-leading-char-face ((,class (:foreground ,c0 :height 1.5))))
+
   ;; flycheck
   `(flycheck-warning ((,class (:foreground ,c1 :underline t))))
   `(flycheck-error ((,class (:foreground ,c0 :underline t))))
