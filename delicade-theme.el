@@ -42,10 +42,11 @@
   `(region ((,class (:background ,b2))))
   `(secondary-selection ((,class (:background ,b3))))
   `(trailing-whitespace ((,class (:underline (:color ,c0 :style wave)))))
-  `(mode-line ((,class (:foreground ,c0 :background ,b1))))
-  `(mode-line-inactive ((,class (:foreground ,b4 :background ,b1))))
-  `(vertical-border ((,class (:foreground ,b0))))
+  `(mode-line ((,class (:foreground ,c0 :background ,b1 :box (:color ,b2)))))
+  `(mode-line-inactive ((,class (:foreground ,b4 :background ,b1 :box (:color ,b2)))))
+  `(vertical-border ((,class (:foreground ,b2))))
   `(minibuffer-prompt ((,class (:foreground ,c0))))
+  `(fringe ((,class (:background ,b0))))
   `(cursor ((,class (:background ,w0))))
 
   ;; flycheck
