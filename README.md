@@ -9,8 +9,8 @@ an Emacs theme based on pastel colours
 ```
 
 ---
-### Preview (as of [`1d65f4d`](https://github.com/cheeze2000/delicade-theme/commit/1d65f4dba9df1f78dedac0055e105e1bee09c2e6))
-![preview](https://cdn.discordapp.com/attachments/437471715975757834/753576525604978718/unknown.png)
+### Preview (as of [`402fa0a`](https://github.com/cheeze2000/delicade-theme/commit/402fa0a5f77ac5b27292b46158469f067fb75bb8))
+![preview](https://cdn.discordapp.com/attachments/437471715975757834/753772251752693760/unknown.png)
 
 ---
 ### Preview Config
@@ -19,11 +19,7 @@ an Emacs theme based on pastel colours
 (load-theme 'delicade t)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
-(set-display-table-slot
-  standard-display-table 1
-  (make-glyph-code ? ))
 (set-frame-font "DejaVu Sans Mono 15" nil t)
-(set-fringe-mode '(0 . 0))
 (toggle-frame-fullscreen)
 (tool-bar-mode -1)
 ```
